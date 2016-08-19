@@ -1,2 +1,10 @@
 var str = require('./component.js');
-document.write(str)
+
+var $ = require('jquery');
+
+$('#app').html(str)
+
+// var aaa =s => {
+//   document.write(s)
+// }
+// aaa(str)

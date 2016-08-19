@@ -44,16 +44,22 @@
 /* 0 */
 /***/ function(module, exports, __webpack_require__) {
 
-	var str = __webpack_require__(1);
-	document.write(str)
+	'use strict';
 
+	var str = __webpack_require__(1);
+
+	var aaa = function aaa(s) {
+	  document.write(s);
+	};
+	aaa(str);
 
 /***/ },
 /* 1 */
 /***/ function(module, exports) {
 
-	module.exports = '张振国'
+	'use strict';
 
+	module.exports = '张振国11112';
 
 /***/ }
 /******/ ]);
