@@ -1,0 +1,1 @@
+webpackJsonp([3,0],[function(o,c,n){"use strict";var s=n(3);console.log(s)},,,function(o,c){"use strict";o.exports="common的文件"}]);
